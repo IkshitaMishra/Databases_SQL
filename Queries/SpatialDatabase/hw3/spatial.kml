@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>The Dunes</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289632,34.0282091</coordinates></Point>
+</Placemark>
+<Placemark><name>Expo/Vermont</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291446,34.018411</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff/Vermont</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291463,34.025424</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff/Fig</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280128,34.021897</coordinates></Point>
+</Placemark>
+<Placemark><name>Fig/Expo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282352,34.018399</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2883177,34.0215008</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28507,34.0216728</coordinates></Point>
+</Placemark>
+<Placemark><name>Lyon Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2906171,34.0244047</coordinates></Point>
+</Placemark>
+<Placemark><name>Alumni Park</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2845154,34.0207963</coordinates></Point>
+</Placemark>
+<Placemark><name>Viterbi School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2889997,34.0214443</coordinates></Point>
+</Placemark>
+<Placemark><name>Parking Lot M</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864765,34.0238729</coordinates></Point>
+</Placemark>
+<Placemark><name>Cinematic Arts</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2893487,34.0235218</coordinates></Point>
+</Placemark>
+<Placemark>
+    <name>convex hull</name>
+    <styleUrl>#examplePolyStyle</styleUrl>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <coordinates>
+	          -118.282352,34.018399
+	          -118.291446,34.018411
+	          -118.291463,34.025424
+	          -118.289632,34.0282091
+	          -118.280128,34.021897
+	          -118.282352,34.018399
+	          </coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+       <innerBoundaryIs>
+            <LinearRing>
+               <coordinates>  
+          -118.282352,34.018399
+	          -118.291446,34.018411
+	          -118.291463,34.025424
+	          -118.289632,34.0282091
+	          -118.280128,34.021897
+	          -118.282352,34.018399
+ 				</coordinates>
+     		</LinearRing>
+  		</innerBoundaryIs>
+    </Polygon>
+  </Placemark>
+<Style id="examplePolyStyle">
+    <PolyStyle>
+      <color>FF32CD32</color>
+    </PolyStyle>
+  </Style>
+<Placemark>
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.289632,34.0282091,0
+		-118.291463,34.025424,0</coordinates>
+         </LineString>
+</Placemark>
+<Placemark>
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.289632,34.0282091,0
+		-118.2906171,34.0244047,0</coordinates>
+         </LineString>
+</Placemark>
+<Placemark >
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.289632,34.0282091,0
+		-118.2893487,34.0235218,0</coordinates>
+         </LineString>
+</Placemark>
+
+<Placemark >
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.289632,34.0282091,0
+		-118.2864765,34.0238729,0</coordinates>
+         </LineString>
+</Placemark>
+</Document></kml>
